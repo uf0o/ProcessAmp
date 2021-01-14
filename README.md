@@ -1,6 +1,6 @@
 # ProcessAmp
 
-A PoC driver inspired by the `Booster` from [Pavel Yosifovich](https://github.com/zodiacon) that rise each thread's priority on a given process.
+A PoC driver inspired by the `Booster` from [Pavel Yosifovich](https://github.com/zodiacon) that rises each thread's priority on a given process.
 The driver monitors newly created threads on an interval basis and assign them the desired priority, which eventually should improve performance.
 
 Conversely, the driver can also be used to lower the priority on high-demand thread's thus, capping CPU utilization.
